@@ -1,0 +1,7 @@
+{
+  "version": "v1.0.0",
+  "app": "ST AI ONEUI",
+  "platform": "windows",
+  "build_type": "exe",
+  "notes": "initial release"
+}
