@@ -1,0 +1,8 @@
+dist/
+build/
+*.exe
+*.zip
+*.spec
+__pycache__/
+.env
+*firebase-adminsdk*.json
