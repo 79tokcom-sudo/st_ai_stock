@@ -1,0 +1,70 @@
+3844 INFO: PyInstaller: 6.18.0, contrib hooks: 2025.11
+3846 INFO: Python: 3.13.9 (conda)
+3877 INFO: Platform: Windows-10-10.0.19045-SP0
+3878 INFO: Python environment: C:\Users\st\AppData\Local\anaconda3
+3879 INFO: wrote C:\Users\st\Python\OUT\spec\launcher.spec
+3882 INFO: Removing temporary files and cleaning cache in C:\Users\st\AppData\Local\pyinstaller
+3896 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\st\\Python',
+ 'C:\\Users\\st\\AppData\\Local\\anaconda3\\python313.zip',
+ 'C:\\Users\\st\\AppData\\Local\\anaconda3\\DLLs',
+ 'C:\\Users\\st\\AppData\\Local\\anaconda3\\Lib',
+ 'C:\\Users\\st\\AppData\\Local\\anaconda3',
+ 'C:\\Users\\st\\AppData\\Local\\anaconda3\\Lib\\site-packages',
+ 'C:\\Users\\st\\AppData\\Local\\anaconda3\\Lib\\site-packages\\win32',
+ 'C:\\Users\\st\\AppData\\Local\\anaconda3\\Lib\\site-packages\\win32\\lib',
+ 'C:\\Users\\st\\AppData\\Local\\anaconda3\\Lib\\site-packages\\Pythonwin',
+ 'C:\\Users\\st\\Python']
+8711 INFO: checking Analysis
+8711 INFO: Building Analysis because Analysis-00.toc is non existent
+8711 INFO: Looking for Python shared library...
+8712 INFO: Using Python shared library: C:\Users\st\AppData\Local\anaconda3\python313.dll
+8712 INFO: Running Analysis Analysis-00.toc
+8712 INFO: Target bytecode optimization level: 0
+8712 INFO: Initializing module dependency graph...
+8715 INFO: Initializing module graph hook caches...
+8744 INFO: Analyzing modules for base_library.zip ...
+21830 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\st\\AppData\\Local\\anaconda3\\Lib\\site-packages\\PyInstaller\\hooks'
+29402 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\st\\AppData\\Local\\anaconda3\\Lib\\site-packages\\PyInstaller\\hooks'
+31206 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\st\\AppData\\Local\\anaconda3\\Lib\\site-packages\\PyInstaller\\hooks'
+32351 INFO: Caching module dependency graph...
+32461 INFO: Analyzing C:\Users\st\Python\launcher.py
+32465 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\st\\AppData\\Local\\anaconda3\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+32467 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+33307 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\st\\AppData\\Local\\anaconda3\\Lib\\site-packages\\PyInstaller\\hooks'
+33329 INFO: Processing module hooks (post-graph stage)...
+33336 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\st\\AppData\\Local\\anaconda3\\Lib\\site-packages\\PyInstaller\\hooks'
+33356 INFO: Performing binary vs. data reclassification (927 entries)
+33547 INFO: Looking for ctypes DLLs
+33555 INFO: Analyzing run-time hooks ...
+33556 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\st\\AppData\\Local\\anaconda3\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+33561 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\st\\AppData\\Local\\anaconda3\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+33608 INFO: Creating base_library.zip...
+33640 INFO: Looking for dynamic libraries
+33829 INFO: Extra DLL search directories (AddDllDirectory): []
+33829 INFO: Extra DLL search directories (PATH): []
+34202 WARNING: Library not found: could not resolve 'libmpdec-4.dll', dependency of 'C:\\Users\\st\\AppData\\Local\\anaconda3\\DLLs\\_decimal.pyd'.
+34202 WARNING: Library not found: could not resolve 'libcrypto-3-x64.dll', dependency of 'C:\\Users\\st\\AppData\\Local\\anaconda3\\DLLs\\_hashlib.pyd'.
+34203 WARNING: Library not found: could not resolve 'tcl86t.dll', dependency of 'C:\\Users\\st\\AppData\\Local\\anaconda3\\DLLs\\_tkinter.pyd'.
+34258 INFO: Warnings written to C:\Users\st\Python\OUT\work\launcher\warn-launcher.txt
+34283 INFO: Graph cross-reference written to C:\Users\st\Python\OUT\work\launcher\xref-launcher.html
+34342 INFO: checking PYZ
+34343 INFO: Building PYZ because PYZ-00.toc is non existent
+34343 INFO: Building PYZ (ZlibArchive) C:\Users\st\Python\OUT\work\launcher\PYZ-00.pyz
+34534 INFO: Building PYZ (ZlibArchive) C:\Users\st\Python\OUT\work\launcher\PYZ-00.pyz completed successfully.
+34574 INFO: checking PKG
+34574 INFO: Building PKG because PKG-00.toc is non existent
+34574 INFO: Building PKG (CArchive) launcher.pkg
+37242 INFO: Building PKG (CArchive) launcher.pkg completed successfully.
+37282 INFO: Bootloader C:\Users\st\AppData\Local\anaconda3\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+37282 INFO: checking EXE
+37282 INFO: Building EXE because EXE-00.toc is non existent
+37282 INFO: Building EXE from EXE-00.toc
+37282 INFO: Copying bootloader EXE to C:\Users\st\Python\OUT\dist\launcher.exe
+37340 INFO: Copying icon to EXE
+37393 INFO: Copying 0 resources to EXE
+37393 INFO: Embedding manifest in EXE
+37444 INFO: Appending PKG archive to EXE
+37634 INFO: Fixing EXE headers
+38574 INFO: Building EXE from EXE-00.toc completed successfully.
+38616 INFO: Build complete! The results are available in: C:\Users\st\Python\OUT\dist

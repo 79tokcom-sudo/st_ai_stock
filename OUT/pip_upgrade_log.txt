@@ -1,0 +1,24 @@
+Requirement already satisfied: pip in c:\users\st\appdata\local\anaconda3\lib\site-packages (25.3)
+Requirement already satisfied: setuptools in c:\users\st\appdata\local\anaconda3\lib\site-packages (80.9.0)
+Collecting setuptools
+  Downloading setuptools-80.10.1-py3-none-any.whl.metadata (6.7 kB)
+Requirement already satisfied: wheel in c:\users\st\appdata\local\anaconda3\lib\site-packages (0.45.1)
+Collecting wheel
+  Downloading wheel-0.46.3-py3-none-any.whl.metadata (2.4 kB)
+Requirement already satisfied: packaging>=24.0 in c:\users\st\appdata\local\anaconda3\lib\site-packages (from wheel) (25.0)
+Downloading setuptools-80.10.1-py3-none-any.whl (1.1 MB)
+   ---------------------------------------- 1.1/1.1 MB 8.0 MB/s  0:00:00
+Downloading wheel-0.46.3-py3-none-any.whl (30 kB)
+Installing collected packages: wheel, setuptools
+  Attempting uninstall: wheel
+    Found existing installation: wheel 0.45.1
+    Uninstalling wheel-0.45.1:
+      Successfully uninstalled wheel-0.45.1
+  WARNING: The script wheel.exe is installed in 'C:\Users\st\AppData\Local\anaconda3\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 80.9.0
+    Uninstalling setuptools-80.9.0:
+      Successfully uninstalled setuptools-80.9.0
+
+Successfully installed setuptools-80.10.1 wheel-0.46.3
